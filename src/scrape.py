@@ -85,9 +85,6 @@ def getCvMarketPageData(page, city, keyword, job_category):
         page += 1
 
 
-keyword = ''
-
-
 def getCvOnlineData(city, keyword, job_category):
 
     global cvOnline_postings
