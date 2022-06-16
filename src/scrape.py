@@ -61,10 +61,10 @@ def getCvMarketPageData(page, city, keyword, job_category):
             job_company = job_rows[i].find('span', {'class': 'f_job_company'})
 
             job_salary = job_rows[i].find(
-                'span', {'class': 'f_job_salary'}).find('b')
+                'span', {'class': 'f_job_salary'})
 
             job_salary_type = job_rows[i].find(
-                'span', {'class': 'salary-type'})
+                'span', {'class': 'salary-type'}).text.lstrip().strip()
 
             href = job_title.get('href')
             website_from = 'cvmarket'
@@ -109,7 +109,7 @@ def getCvOnlineData(city, keyword, job_category):
         job_company = job.find(
             'div', {'class': 'vacancy-item__body'}).find('a')
         job_salary = job.find('span', {'class': 'vacancy-item__salary-label'})
-        salary_type = 'neatskaičiavus mokesčių'
+        salary_type = 'Neatskaičiavus mokesčių'
         job_href = job.get('href')
         posting_date = ''
         job_url = f'https://www.cvonline.lt{job_href}'
@@ -160,6 +160,8 @@ def writeToData(title, salary, company, salary_type, posting_date,
         logging.info(
             f'duplicate posting found and rejected. total {rejected_postings} rejected')
 
+    print(f'parsing: postings parsed {len(data) + rejected_postings}')
+
 
 f = './config/config.ini'
 config = ConfigParser()
@@ -179,6 +181,7 @@ page = 0
 
 rejected_postings = 0
 
+# categories can be found in search_variables.py
 city = 'Vilnius'
 keyword = 'vadovas'
 job_category = 'Informacinės technologijos'
@@ -190,3 +193,7 @@ getCvOnlineData(city, keyword, job_category)
 logging.info(f'{cvMarket_postings} postings found in cvmarket.lt')
 logging.info(f'{cvOnline_postings} postings found in cvonline.lt')
 logging.info(f'{rejected_postings} postings rejected')
+
+for job in data:
+    print(
+        f'{job["title"]} --- {job["company"]} --- {job["salary"]} {job["salary_type"]}')

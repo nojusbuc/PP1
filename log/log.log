@@ -1,115 +1,115 @@
-[DEBUG] - 2022-06-16 19:15:57,671 - Starting new HTTPS connection (1): www.cvmarket.lt:443
-[DEBUG] - 2022-06-16 19:15:57,955 - https://www.cvmarket.lt:443 "GET /joboffers.php?_track=index_click_job_search&op=search&search_location=landingpage&ga_track=homepage&dummy_locations=134&dummy_categories=8&search%5Bkeyword%5D=vadovass&mobile_search%5Bkeyword%5D=vadovas&tmp_city=&search%5Blocations%5D%5B%5D=134&tmp_cat=&search%5Bcategories%5D%5B%5D=8&tmp_city=&dummy_search%5Blocations%5D%5B%5D=134&tmp_category=&dummy_search%5Bcategories%5D%5B%5D=8&search%5Bkeyword%5D=vadovas&search%5Bexpires_days%5D=&search%5Bjob_lang%5D=&search%5Bsalary%5D=&search%5Bjob_salary%5D=3 HTTP/1.1" 200 35345
-[DEBUG] - 2022-06-16 19:15:58,054 - Starting new HTTPS connection (1): www.cvmarket.lt:443
-[DEBUG] - 2022-06-16 19:15:58,244 - https://www.cvmarket.lt:443 "GET /projektu-vadovas-e-vilnius-registru-centras-vi-1648893 HTTP/1.1" 200 23930
-[INFO] - 2022-06-16 19:15:58,295 - job posting added. 1 job postings scraped
-[DEBUG] - 2022-06-16 19:15:58,297 - Starting new HTTPS connection (1): www.cvmarket.lt:443
-[DEBUG] - 2022-06-16 19:15:58,490 - https://www.cvmarket.lt:443 "GET /it-projektu-vadovas-e-vilnius-novian-systems-uab-1634564 HTTP/1.1" 200 23924
-[INFO] - 2022-06-16 19:15:58,543 - job posting added. 2 job postings scraped
-[DEBUG] - 2022-06-16 19:15:58,544 - Starting new HTTPS connection (1): www.cvmarket.lt:443
-[DEBUG] - 2022-06-16 19:15:58,737 - https://www.cvmarket.lt:443 "GET /vyriausiasis-ioji-projektu-vadovas-e-vilnius-registru-centras-vi-1630565 HTTP/1.1" 200 24574
-[INFO] - 2022-06-16 19:15:58,800 - job posting added. 3 job postings scraped
-[DEBUG] - 2022-06-16 19:15:58,802 - Starting new HTTPS connection (1): www.cvmarket.lt:443
-[DEBUG] - 2022-06-16 19:15:58,996 - https://www.cvmarket.lt:443 "GET /techninis-e-produktu-vadovas-e-dwh-developer-vilnius-registru-centras-vi-1626391 HTTP/1.1" 200 21830
-[INFO] - 2022-06-16 19:15:59,043 - job posting added. 4 job postings scraped
-[DEBUG] - 2022-06-16 19:15:59,045 - Starting new HTTPS connection (1): www.cvmarket.lt:443
-[DEBUG] - 2022-06-16 19:15:59,237 - https://www.cvmarket.lt:443 "GET /produkto-vadovas-e-vilnius-registru-centras-vi-1610730 HTTP/1.1" 200 21719
-[INFO] - 2022-06-16 19:15:59,283 - job posting added. 5 job postings scraped
-[DEBUG] - 2022-06-16 19:15:59,284 - Starting new HTTPS connection (1): cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:00,170 - https://cvonline.lt:443 "GET /lt/search?limit=2000&offset=0&categories%5B0%5D=INFORMATION_TECHNOLOGY&keywords%5B0%5D=vadovas&towns%5B0%5D=540&fuzzy=true&suitableForRefugees=false&isHourlySalary=false&isRemoteWork=false&isQuickApply=false HTTP/1.1" 200 None
-[DEBUG] - 2022-06-16 19:16:00,445 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:01,218 - https://www.cvonline.lt:443 "GET /lt/vacancy/826607/paspara-uab/projektu-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:01,284 - job posting added. 6 job postings scraped
-[DEBUG] - 2022-06-16 19:16:01,501 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:02,487 - https://www.cvonline.lt:443 "GET /lt/vacancy/826282/lietuvos-oro-uostai-vi/projektu-vadovas-vadove HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:02,538 - job posting added. 7 job postings scraped
-[DEBUG] - 2022-06-16 19:16:02,750 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:03,415 - https://www.cvonline.lt:443 "GET /lt/vacancy/817848/lietuvos-respublikos-specialiuju-tyrimu-tarnyba/programavimo-padalinio-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:03,467 - job posting added. 8 job postings scraped
-[DEBUG] - 2022-06-16 19:16:03,681 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:04,395 - https://www.cvonline.lt:443 "GET /lt/vacancy/828477/ignitis-group/pirkimu-koordinatorius-e-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:04,446 - job posting added. 9 job postings scraped
-[DEBUG] - 2022-06-16 19:16:04,647 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:05,479 - https://www.cvonline.lt:443 "GET /lt/vacancy/822094/lietuvos-oro-uostai-vi/sistemu-prieziuros-projektu-vadovas-vadove HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:05,530 - job posting added. 10 job postings scraped
-[DEBUG] - 2022-06-16 19:16:05,740 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:06,387 - https://www.cvonline.lt:443 "GET /lt/vacancy/830924/cv-online-klientas/informaciniu-technologiju-centro-vadovas HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:06,437 - job posting added. 11 job postings scraped
-[DEBUG] - 2022-06-16 19:16:06,648 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:07,416 - https://www.cvonline.lt:443 "GET /lt/vacancy/828485/ignitis-group/it-analitiku-komandos-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:07,522 - job posting added. 12 job postings scraped
-[DEBUG] - 2022-06-16 19:16:07,733 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:08,407 - https://www.cvonline.lt:443 "GET /lt/vacancy/815903/alliance-for-recruitment/skaitmeniniu-projektu-vadovas HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:08,497 - job posting added. 13 job postings scraped
-[DEBUG] - 2022-06-16 19:16:08,711 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:09,213 - https://www.cvonline.lt:443 "GET /lt/vacancy/835122/viesuju-investiciju-pletros-agentura-uab/informaciniu-sistemu-projektu-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:09,298 - job posting added. 14 job postings scraped
-[DEBUG] - 2022-06-16 19:16:09,508 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:10,152 - https://www.cvonline.lt:443 "GET /lt/vacancy/816112/ignitis-group/verslo-sistemu-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:10,203 - job posting added. 15 job postings scraped
-[DEBUG] - 2022-06-16 19:16:10,408 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:11,109 - https://www.cvonline.lt:443 "GET /lt/vacancy/829979/hansab-uab/pardavimu-projektu-vadovas-audiovizualiniai-sprendimai HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:11,159 - job posting added. 16 job postings scraped
-[DEBUG] - 2022-06-16 19:16:11,361 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:11,989 - https://www.cvonline.lt:443 "GET /lt/vacancy/825054/people-link-uab/it-valdymo-paslaugu-grupes-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:12,039 - job posting added. 17 job postings scraped
-[DEBUG] - 2022-06-16 19:16:12,250 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:13,119 - https://www.cvonline.lt:443 "GET /lt/vacancy/818698/amber-grid-ab/kibernetinio-saugumo-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:13,172 - job posting added. 18 job postings scraped
-[DEBUG] - 2022-06-16 19:16:13,386 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:14,034 - https://www.cvonline.lt:443 "GET /lt/vacancy/828482/ignitis-group/it-infrastrukturos-pletros-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:14,086 - job posting added. 19 job postings scraped
-[DEBUG] - 2022-06-16 19:16:14,299 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:15,019 - https://www.cvonline.lt:443 "GET /lt/vacancy/814462/registru-centras-vi/produkto-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:15,070 - duplicate posting found and rejected. total 1 rejected
-[DEBUG] - 2022-06-16 19:16:15,274 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:15,901 - https://www.cvonline.lt:443 "GET /lt/vacancy/824032/registru-centras-vi/vyriausiasis-ioji-projektu-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:15,953 - duplicate posting found and rejected. total 2 rejected
-[DEBUG] - 2022-06-16 19:16:16,160 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:17,460 - https://www.cvonline.lt:443 "GET /lt/vacancy/830678/registru-centras-vi/it-projektu-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:17,567 - job posting added. 20 job postings scraped
-[DEBUG] - 2022-06-16 19:16:17,779 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:18,433 - https://www.cvonline.lt:443 "GET /lt/vacancy/821525/alisa-management-laboratory-uab/programuotoju-komandos-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:18,483 - job posting added. 21 job postings scraped
-[DEBUG] - 2022-06-16 19:16:18,694 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:19,330 - https://www.cvonline.lt:443 "GET /lt/vacancy/825169/lietuvos-bankas/it-infrastrukturos-projektu-vadovas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:19,383 - job posting added. 22 job postings scraped
-[DEBUG] - 2022-06-16 19:16:19,594 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:20,309 - https://www.cvonline.lt:443 "GET /lt/vacancy/822347/registru-centras-vi/techninis-e-produktu-vadovas-e-dwh-developer HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:20,415 - job posting added. 23 job postings scraped
-[DEBUG] - 2022-06-16 19:16:20,631 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:21,288 - https://www.cvonline.lt:443 "GET /lt/vacancy/831520/registru-centras-vi/it-projektu-vadovo-es-asistentas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:21,339 - job posting added. 24 job postings scraped
-[DEBUG] - 2022-06-16 19:16:21,553 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:22,209 - https://www.cvonline.lt:443 "GET /lt/vacancy/815812/registru-centras-vi/apribojimu-is-skyriaus-veiklos-analitikas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:22,262 - job posting added. 25 job postings scraped
-[DEBUG] - 2022-06-16 19:16:22,472 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:23,139 - https://www.cvonline.lt:443 "GET /lt/vacancy/833681/nortal-uab/technical-project-delivery-manager HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:23,192 - job posting added. 26 job postings scraped
-[DEBUG] - 2022-06-16 19:16:23,395 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:24,123 - https://www.cvonline.lt:443 "GET /lt/vacancy/829411/cv-online-recruitment-lithuania/vyriausiasis-statistikas-e HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:24,174 - job posting added. 27 job postings scraped
-[DEBUG] - 2022-06-16 19:16:24,390 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:25,010 - https://www.cvonline.lt:443 "GET /lt/vacancy/811175/alliance-for-recruitment/php-laravel-developer HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:25,060 - job posting added. 28 job postings scraped
-[DEBUG] - 2022-06-16 19:16:25,268 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:26,198 - https://www.cvonline.lt:443 "GET /lt/vacancy/823873/nrd-companies/net-programuotojas HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:26,249 - job posting added. 29 job postings scraped
-[DEBUG] - 2022-06-16 19:16:26,450 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:26,986 - https://www.cvonline.lt:443 "GET /lt/vacancy/835077/telia-lietuva-ab/inzinierius-e-diegiant-ir-parduodant-paslaugas-vilniuje-sekmingai-tapus-pazangiu-naujoku-ism HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:27,037 - job posting added. 30 job postings scraped
-[DEBUG] - 2022-06-16 19:16:27,247 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:27,882 - https://www.cvonline.lt:443 "GET /lt/vacancy/828498/ignitis-group/veiklos-analitikas-e-is-bilingas HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:27,934 - job posting added. 31 job postings scraped
-[DEBUG] - 2022-06-16 19:16:28,148 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:28,923 - https://www.cvonline.lt:443 "GET /lt/vacancy/834924/nova-lux-management-solutions-klientas/soc-tinklu-administratorius-su-ambicija-augti HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:28,975 - job posting added. 32 job postings scraped
-[DEBUG] - 2022-06-16 19:16:29,191 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:29,880 - https://www.cvonline.lt:443 "GET /lt/vacancy/829849/litgrid-ab/programos-valdysenos-koordinatorius-e-sinchronizacijos-programos-igyvendinimo HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:29,933 - job posting added. 33 job postings scraped
-[DEBUG] - 2022-06-16 19:16:30,140 - Starting new HTTPS connection (1): www.cvonline.lt:443
-[DEBUG] - 2022-06-16 19:16:30,758 - https://www.cvonline.lt:443 "GET /lt/vacancy/828496/ignitis-group/veiklos-analitikas-e-microsoft-dynamics-crm HTTP/1.1" 200 None
-[INFO] - 2022-06-16 19:16:30,810 - job posting added. 34 job postings scraped
-[INFO] - 2022-06-16 19:16:30,810 - 5 postings found in cvmarket.lt
-[INFO] - 2022-06-16 19:16:30,810 - 31 postings found in cvonline.lt
-[INFO] - 2022-06-16 19:16:30,810 - 2 postings rejected
+[DEBUG] - 2022-06-16 19:49:27,311 - Starting new HTTPS connection (1): www.cvmarket.lt:443
+[DEBUG] - 2022-06-16 19:49:27,658 - https://www.cvmarket.lt:443 "GET /joboffers.php?_track=index_click_job_search&op=search&search_location=landingpage&ga_track=homepage&dummy_locations=134&dummy_categories=8&search%5Bkeyword%5D=vadovass&mobile_search%5Bkeyword%5D=vadovas&tmp_city=&search%5Blocations%5D%5B%5D=134&tmp_cat=&search%5Bcategories%5D%5B%5D=8&tmp_city=&dummy_search%5Blocations%5D%5B%5D=134&tmp_category=&dummy_search%5Bcategories%5D%5B%5D=8&search%5Bkeyword%5D=vadovas&search%5Bexpires_days%5D=&search%5Bjob_lang%5D=&search%5Bsalary%5D=&search%5Bjob_salary%5D=3 HTTP/1.1" 200 35316
+[DEBUG] - 2022-06-16 19:49:27,747 - Starting new HTTPS connection (1): www.cvmarket.lt:443
+[DEBUG] - 2022-06-16 19:49:27,944 - https://www.cvmarket.lt:443 "GET /projektu-vadovas-e-vilnius-registru-centras-vi-1648893 HTTP/1.1" 200 23930
+[INFO] - 2022-06-16 19:49:27,996 - job posting added. 1 job postings scraped
+[DEBUG] - 2022-06-16 19:49:27,997 - Starting new HTTPS connection (1): www.cvmarket.lt:443
+[DEBUG] - 2022-06-16 19:49:28,196 - https://www.cvmarket.lt:443 "GET /it-projektu-vadovas-e-vilnius-novian-systems-uab-1634564 HTTP/1.1" 200 23923
+[INFO] - 2022-06-16 19:49:28,249 - job posting added. 2 job postings scraped
+[DEBUG] - 2022-06-16 19:49:28,251 - Starting new HTTPS connection (1): www.cvmarket.lt:443
+[DEBUG] - 2022-06-16 19:49:28,450 - https://www.cvmarket.lt:443 "GET /vyriausiasis-ioji-projektu-vadovas-e-vilnius-registru-centras-vi-1630565 HTTP/1.1" 200 24574
+[INFO] - 2022-06-16 19:49:28,504 - job posting added. 3 job postings scraped
+[DEBUG] - 2022-06-16 19:49:28,505 - Starting new HTTPS connection (1): www.cvmarket.lt:443
+[DEBUG] - 2022-06-16 19:49:28,703 - https://www.cvmarket.lt:443 "GET /techninis-e-produktu-vadovas-e-dwh-developer-vilnius-registru-centras-vi-1626391 HTTP/1.1" 200 21830
+[INFO] - 2022-06-16 19:49:28,750 - job posting added. 4 job postings scraped
+[DEBUG] - 2022-06-16 19:49:28,752 - Starting new HTTPS connection (1): www.cvmarket.lt:443
+[DEBUG] - 2022-06-16 19:49:28,944 - https://www.cvmarket.lt:443 "GET /produkto-vadovas-e-vilnius-registru-centras-vi-1610730 HTTP/1.1" 200 21720
+[INFO] - 2022-06-16 19:49:28,992 - job posting added. 5 job postings scraped
+[DEBUG] - 2022-06-16 19:49:28,994 - Starting new HTTPS connection (1): cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:29,822 - https://cvonline.lt:443 "GET /lt/search?limit=2000&offset=0&categories%5B0%5D=INFORMATION_TECHNOLOGY&keywords%5B0%5D=vadovas&towns%5B0%5D=540&fuzzy=true&suitableForRefugees=false&isHourlySalary=false&isRemoteWork=false&isQuickApply=false HTTP/1.1" 200 None
+[DEBUG] - 2022-06-16 19:49:30,103 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:30,733 - https://www.cvonline.lt:443 "GET /lt/vacancy/826607/paspara-uab/projektu-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:30,794 - job posting added. 6 job postings scraped
+[DEBUG] - 2022-06-16 19:49:31,001 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:31,986 - https://www.cvonline.lt:443 "GET /lt/vacancy/826282/lietuvos-oro-uostai-vi/projektu-vadovas-vadove HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:32,037 - job posting added. 7 job postings scraped
+[DEBUG] - 2022-06-16 19:49:32,245 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:32,934 - https://www.cvonline.lt:443 "GET /lt/vacancy/817848/lietuvos-respublikos-specialiuju-tyrimu-tarnyba/programavimo-padalinio-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:32,986 - job posting added. 8 job postings scraped
+[DEBUG] - 2022-06-16 19:49:33,194 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:33,906 - https://www.cvonline.lt:443 "GET /lt/vacancy/828477/ignitis-group/pirkimu-koordinatorius-e-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:33,957 - job posting added. 9 job postings scraped
+[DEBUG] - 2022-06-16 19:49:34,170 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:35,110 - https://www.cvonline.lt:443 "GET /lt/vacancy/822094/lietuvos-oro-uostai-vi/sistemu-prieziuros-projektu-vadovas-vadove HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:35,161 - job posting added. 10 job postings scraped
+[DEBUG] - 2022-06-16 19:49:35,373 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:36,188 - https://www.cvonline.lt:443 "GET /lt/vacancy/830924/cv-online-klientas/informaciniu-technologiju-centro-vadovas HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:36,240 - job posting added. 11 job postings scraped
+[DEBUG] - 2022-06-16 19:49:36,444 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:37,121 - https://www.cvonline.lt:443 "GET /lt/vacancy/828485/ignitis-group/it-analitiku-komandos-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:37,173 - job posting added. 12 job postings scraped
+[DEBUG] - 2022-06-16 19:49:37,377 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:38,044 - https://www.cvonline.lt:443 "GET /lt/vacancy/815903/alliance-for-recruitment/skaitmeniniu-projektu-vadovas HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:38,096 - job posting added. 13 job postings scraped
+[DEBUG] - 2022-06-16 19:49:38,314 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:38,927 - https://www.cvonline.lt:443 "GET /lt/vacancy/835122/viesuju-investiciju-pletros-agentura-uab/informaciniu-sistemu-projektu-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:38,975 - job posting added. 14 job postings scraped
+[DEBUG] - 2022-06-16 19:49:39,183 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:39,921 - https://www.cvonline.lt:443 "GET /lt/vacancy/816112/ignitis-group/verslo-sistemu-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:39,975 - job posting added. 15 job postings scraped
+[DEBUG] - 2022-06-16 19:49:40,183 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:40,873 - https://www.cvonline.lt:443 "GET /lt/vacancy/829979/hansab-uab/pardavimu-projektu-vadovas-audiovizualiniai-sprendimai HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:40,923 - job posting added. 16 job postings scraped
+[DEBUG] - 2022-06-16 19:49:41,130 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:41,783 - https://www.cvonline.lt:443 "GET /lt/vacancy/825054/people-link-uab/it-valdymo-paslaugu-grupes-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:41,852 - job posting added. 17 job postings scraped
+[DEBUG] - 2022-06-16 19:49:42,054 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:42,708 - https://www.cvonline.lt:443 "GET /lt/vacancy/818698/amber-grid-ab/kibernetinio-saugumo-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:42,762 - job posting added. 18 job postings scraped
+[DEBUG] - 2022-06-16 19:49:42,964 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:43,631 - https://www.cvonline.lt:443 "GET /lt/vacancy/828482/ignitis-group/it-infrastrukturos-pletros-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:43,682 - job posting added. 19 job postings scraped
+[DEBUG] - 2022-06-16 19:49:43,894 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:44,673 - https://www.cvonline.lt:443 "GET /lt/vacancy/814462/registru-centras-vi/produkto-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:44,725 - duplicate posting found and rejected. total 1 rejected
+[DEBUG] - 2022-06-16 19:49:44,937 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:45,514 - https://www.cvonline.lt:443 "GET /lt/vacancy/824032/registru-centras-vi/vyriausiasis-ioji-projektu-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:45,567 - duplicate posting found and rejected. total 2 rejected
+[DEBUG] - 2022-06-16 19:49:45,774 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:46,495 - https://www.cvonline.lt:443 "GET /lt/vacancy/830678/registru-centras-vi/it-projektu-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:46,546 - job posting added. 20 job postings scraped
+[DEBUG] - 2022-06-16 19:49:46,762 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:47,493 - https://www.cvonline.lt:443 "GET /lt/vacancy/821525/alisa-management-laboratory-uab/programuotoju-komandos-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:47,544 - job posting added. 21 job postings scraped
+[DEBUG] - 2022-06-16 19:49:47,757 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:48,490 - https://www.cvonline.lt:443 "GET /lt/vacancy/825169/lietuvos-bankas/it-infrastrukturos-projektu-vadovas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:48,542 - job posting added. 22 job postings scraped
+[DEBUG] - 2022-06-16 19:49:48,750 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:49,441 - https://www.cvonline.lt:443 "GET /lt/vacancy/822347/registru-centras-vi/techninis-e-produktu-vadovas-e-dwh-developer HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:49,493 - job posting added. 23 job postings scraped
+[DEBUG] - 2022-06-16 19:49:49,700 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:50,389 - https://www.cvonline.lt:443 "GET /lt/vacancy/831520/registru-centras-vi/it-projektu-vadovo-es-asistentas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:50,441 - job posting added. 24 job postings scraped
+[DEBUG] - 2022-06-16 19:49:50,644 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:51,346 - https://www.cvonline.lt:443 "GET /lt/vacancy/815812/registru-centras-vi/apribojimu-is-skyriaus-veiklos-analitikas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:51,398 - job posting added. 25 job postings scraped
+[DEBUG] - 2022-06-16 19:49:51,599 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:52,265 - https://www.cvonline.lt:443 "GET /lt/vacancy/833681/nortal-uab/technical-project-delivery-manager HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:52,320 - job posting added. 26 job postings scraped
+[DEBUG] - 2022-06-16 19:49:52,525 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:53,197 - https://www.cvonline.lt:443 "GET /lt/vacancy/829411/cv-online-recruitment-lithuania/vyriausiasis-statistikas-e HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:53,248 - job posting added. 27 job postings scraped
+[DEBUG] - 2022-06-16 19:49:53,455 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:54,291 - https://www.cvonline.lt:443 "GET /lt/vacancy/811175/alliance-for-recruitment/php-laravel-developer HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:54,342 - job posting added. 28 job postings scraped
+[DEBUG] - 2022-06-16 19:49:54,548 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:55,512 - https://www.cvonline.lt:443 "GET /lt/vacancy/823873/nrd-companies/net-programuotojas HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:55,563 - job posting added. 29 job postings scraped
+[DEBUG] - 2022-06-16 19:49:55,772 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:56,402 - https://www.cvonline.lt:443 "GET /lt/vacancy/835077/telia-lietuva-ab/inzinierius-e-diegiant-ir-parduodant-paslaugas-vilniuje-sekmingai-tapus-pazangiu-naujoku-ism HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:56,455 - job posting added. 30 job postings scraped
+[DEBUG] - 2022-06-16 19:49:56,669 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:57,299 - https://www.cvonline.lt:443 "GET /lt/vacancy/828498/ignitis-group/veiklos-analitikas-e-is-bilingas HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:57,351 - job posting added. 31 job postings scraped
+[DEBUG] - 2022-06-16 19:49:57,553 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:58,261 - https://www.cvonline.lt:443 "GET /lt/vacancy/834924/nova-lux-management-solutions-klientas/soc-tinklu-administratorius-su-ambicija-augti HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:58,314 - job posting added. 32 job postings scraped
+[DEBUG] - 2022-06-16 19:49:58,515 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:49:59,322 - https://www.cvonline.lt:443 "GET /lt/vacancy/829849/litgrid-ab/programos-valdysenos-koordinatorius-e-sinchronizacijos-programos-igyvendinimo HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:49:59,374 - job posting added. 33 job postings scraped
+[DEBUG] - 2022-06-16 19:49:59,583 - Starting new HTTPS connection (1): www.cvonline.lt:443
+[DEBUG] - 2022-06-16 19:50:00,424 - https://www.cvonline.lt:443 "GET /lt/vacancy/828496/ignitis-group/veiklos-analitikas-e-microsoft-dynamics-crm HTTP/1.1" 200 None
+[INFO] - 2022-06-16 19:50:00,476 - job posting added. 34 job postings scraped
+[INFO] - 2022-06-16 19:50:00,476 - 5 postings found in cvmarket.lt
+[INFO] - 2022-06-16 19:50:00,476 - 31 postings found in cvonline.lt
+[INFO] - 2022-06-16 19:50:00,476 - 2 postings rejected
