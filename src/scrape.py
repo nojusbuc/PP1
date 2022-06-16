@@ -1,12 +1,16 @@
 import requests
 from bs4 import BeautifulSoup
 from configparser import ConfigParser
+from search_variables import city_dict_cvMarket, job_category_dict_cvMarket, job_category_dict_cvOnline, city_dict_cvOnline
 import time
+import logging
 
 
 def getCvMarketPageData(page, city, keyword, job_category):
 
     last_page = 1
+    global cvMarket_postings
+    cvMarket_postings = 0
 
     while last_page > page:
 
@@ -16,10 +20,10 @@ def getCvMarketPageData(page, city, keyword, job_category):
 
             url = ''.join(f"""\
                 https://www.cvmarket.lt/joboffers.php?_track=index_click_job_search&op=search&search_location=\
-            landingpage&ga_track=homepage&dummy_locations={city_dict[city]}&dummy_categories={job_category_dict[job_category]}&search[keyword]=\
-            {keyword}s&mobile_search[keyword]={keyword}&tmp_city=&search[locations][]={city_dict['Vilnius']}&tmp_cat=\
-            &search[categories][]={job_category_dict[job_category]}&tmp_city=&dummy_search[locations][]={city_dict[city]}&tmp_category=\
-            &dummy_search[categories][]={job_category_dict[job_category]}&search[keyword]={keyword}&search[expires_days]=\
+            landingpage&ga_track=homepage&dummy_locations={city_dict_cvMarket[city]}&dummy_categories={job_category_dict_cvMarket[job_category]}&search[keyword]=\
+            {keyword}s&mobile_search[keyword]={keyword}&tmp_city=&search[locations][]={city_dict_cvMarket['Vilnius']}&tmp_cat=\
+            &search[categories][]={job_category_dict_cvMarket[job_category]}&tmp_city=&dummy_search[locations][]={city_dict_cvMarket[city]}&tmp_category=\
+            &dummy_search[categories][]={job_category_dict_cvMarket[job_category]}&search[keyword]={keyword}&search[expires_days]=\
             &search[job_lang]=&search[salary]=&search[job_salary]=3&start={page*30}\
                     """.split())
 
@@ -27,10 +31,10 @@ def getCvMarketPageData(page, city, keyword, job_category):
 
             url = ''.join(f"""\
             https://www.cvmarket.lt/joboffers.php?_track=index_click_job_search&op=search&search_location=\
-            landingpage&ga_track=homepage&dummy_locations={city_dict[city]}&dummy_categories={job_category_dict[job_category]}&search[keyword]=\
-            {keyword}s&mobile_search[keyword]={keyword}&tmp_city=&search[locations][]={city_dict[city]}&tmp_cat=\
-            &search[categories][]={job_category_dict[job_category]}&tmp_city=&dummy_search[locations][]={city_dict[city]}&tmp_category=\
-            &dummy_search[categories][]={job_category_dict[job_category]}&search[keyword]={keyword}&search[expires_days]=\
+            landingpage&ga_track=homepage&dummy_locations={city_dict_cvMarket[city]}&dummy_categories={job_category_dict_cvMarket[job_category]}&search[keyword]=\
+            {keyword}s&mobile_search[keyword]={keyword}&tmp_city=&search[locations][]={city_dict_cvMarket[city]}&tmp_cat=\
+            &search[categories][]={job_category_dict_cvMarket[job_category]}&tmp_city=&dummy_search[locations][]={city_dict_cvMarket[city]}&tmp_category=\
+            &dummy_search[categories][]={job_category_dict_cvMarket[job_category]}&search[keyword]={keyword}&search[expires_days]=\
             &search[job_lang]=&search[salary]=&search[job_salary]=3\
             """.split())
 
@@ -77,97 +81,17 @@ def getCvMarketPageData(page, city, keyword, job_category):
 
             writeToData(job_title, job_salary, job_company, job_salary_type,
                         posting_date, expiration_date, url, website_from)
-
+            cvMarket_postings += 1
         page += 1
 
 
 keyword = ''
 
-city_dict = {
-    'Vilnius': '134',
-    'Kaunas': '135',
-    'Klaipėda': '136',
-    'Šiauliai': '137',
-    'Panevėžys': '138',
-    'Alytus': '282',
-}
-
-job_category_dict = {
-    'Visos kategorijos': '-1',
-    'Administravimas': '2',
-    'Apsauga': '16',
-    'Aptarnavimas': '18',
-    'Bankai / Draudimas': '38',
-    'Dizainas / Kultūra / Pramogos': '12',
-    'Elektronika / Telekomunikacijos': '4',
-    'Energetika / Gamtos ištekliai': '5',
-    'Finansai': '6',
-    'Informacija / Žiniasklaida': '7',
-    'Informacinės technologijos': '8',
-    'Maitinimas': '20',
-    'Marketingas / Reklama / RsV': '23',
-    'Mechanika / Inžinerija': '14',
-    'Pardavimai / Pirkimai': '15',
-    'Personalo valdymas / Mokymai': '11',
-    'Pramonė / Gamyba': '24',
-    'Savanorystė / Praktika': '37',
-    'Statyba / Nekilnojamasis turtas': '3',
-    'Sveikata / Medicina / Farmacija': '19',
-    'Švietimas / Moksliniai tyrimai': '25',
-    'Teisė': '36',
-    'Transportas / Logistika / Sandėliavimas': '21',
-    'Turizmas / Viešbučiai': '22',
-    'Vadovavimas / Verslo vystymas': '9',
-    'Valstybinė tarnyba': '17',
-    'Žemės ūkis / Miškininkystė / Gyvulininkystė': '13',
-}
-
 
 def getCvOnlineData(city, keyword, job_category):
 
-    job_category_dict_cvOnline = {
-        'Informacinės technologijos': 'INFORMATION_TECHNOLOGY',
-        'Paslaugos / klientų aptarnavimas': 'SERVICE_INDUSTRY',
-        'Finansai / apskaita': 'FINANCE_ACCOUNTING',
-        'Organizavimas / valdymas': 'ORGANISATION_MANAGEMENT',
-        'Gamyba / Pramonė': 'PRODUCTION_MANUFACTURING',
-        'Bankai / draudimas': 'BANKING_INSURANCE',
-        'Inžinerija': 'TECHNICAL_ENGINEERING',
-        'Administravimas': 'ADMINISTRATION',
-        'Pardavimai': 'SALES',
-        'Prekyba / pirkimai / tiekimas': 'TRADE',
-        'Transportas / logistika': 'LOGISTICS_TRANSPORT',
-        'Elektronika / telekomunikacijos': 'ELECTRONICS_TELECOM',
-        'Žmogiškieji ištekliai': 'HUMAN_RESOURCES',
-        'Rinkodara / reklama': 'MARKETING_ADVERTISING',
-        'Teisė': 'LAW_LEGAL',
-        'Statyba / nekilnojamas turtas': 'CONSTRUCTION_REAL_ESTATE',
-        'Energetika': 'ENERGETICS_ELECTRICITY',
-        'Valstybinis / viešasis adminstravimas': 'STATE_PUBLIC_ADMIN',
-        'Kokybės kontrolė': 'QUALITY_ASSURANCE',
-        'Švietimas / mokslas': 'EDUCATION_SCIENCE',
-        'Žiniasklaida / ryšys su visuomene': 'MEDIA_PR',
-        'Praktika': 'INTERNSHIP',
-        'Turizmas / viešbučiai / maitinimas': 'TOURISM_HOTELS_CATERING',
-        'Medicina / socialinė rūpyba': 'HEALTH_SOCIAL_CARE',
-        'Apsauga / gelbėjimo paslaugos / gynyba': 'SECURITY_RESCUE_DEFENCE',
-        'Žemės ūkis / aplinkosauga': 'AGRICULTURE_ENVIRONMENTAL',
-        'Kultūra / pramogos / sportas': 'CULTURE_ENTERTAINMENT',
-        'Farmacija': 'PHARMACY',
-        'Trečiasis sektorius / NVO': 'THIRD_SECTOR',
-        'Miškininkystė / medienos apdirbimas': 'FOREST_WOODCUTTING',
-        'Sezoninis': 'SEASONAL',
-        'Savanoriškas darbas': 'VOLUNTARY',
-    }
-
-    city_dict_cvOnline = {
-        'Vilnius': '540',
-        'Kaunas': '501',
-        'Klaipėda': '505',
-        'Šiauliai': '528',
-        'Panevėžys': '517',
-        'Alytus': '488',
-    }
+    global cvOnline_postings
+    cvOnline_postings = 0
 
     url = ''.join(f"""\
                 https://cvonline.lt/lt/search?limit=2000&offset=0&categories%5B0%5D={job_category_dict_cvOnline[job_category]}&\
@@ -202,9 +126,13 @@ def getCvOnlineData(city, keyword, job_category):
         writeToData(job_title, job_salary, job_company, salary_type,
                     posting_date, expiration_date, url, website_from)
 
+        cvOnline_postings += 1
+
 
 def writeToData(title, salary, company, salary_type, posting_date,
                 expiration_date, url, website_from):
+
+    global rejected_postings
 
     if not any((job['title'] == title.text.lstrip().strip()) &
                (job['company'] == company.text.lstrip().strip()) for job in data):
@@ -225,13 +153,31 @@ def writeToData(title, salary, company, salary_type, posting_date,
 
             }
         )
-        print(len(data))
-    else:
-        print('rejected')
+        logging.info(f'job posting added. {len(data)} job postings scraped')
 
+    else:
+        rejected_postings += 1
+        logging.info(
+            f'duplicate posting found and rejected. total {rejected_postings} rejected')
+
+
+f = './config/config.ini'
+config = ConfigParser()
+config.read(f)
+
+log_level = getattr(logging, config['log_level']['level'])
+
+logging.basicConfig(
+    level=log_level,
+    format='[%(levelname)s] - %(asctime)s - %(message)s',
+    filename=config['log_file']['fname'],
+    filemode=config['log_file_mode']['fmode']
+)
 
 data = []
 page = 0
+
+rejected_postings = 0
 
 city = 'Vilnius'
 keyword = 'vadovas'
@@ -240,3 +186,7 @@ job_category = 'Informacinės technologijos'
 
 getCvMarketPageData(page, city, keyword, job_category)
 getCvOnlineData(city, keyword, job_category)
+
+logging.info(f'{cvMarket_postings} postings found in cvmarket.lt')
+logging.info(f'{cvOnline_postings} postings found in cvonline.lt')
+logging.info(f'{rejected_postings} postings rejected')
